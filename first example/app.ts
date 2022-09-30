@@ -1,5 +1,11 @@
-let a = "Hello TS";
-console.log(a);
+class App{
+    test(){
+        console.log("Test function working");
+    }
+}
+
+let a1 = new App();
+a1.test();
 
 
 

@@ -1,5 +1,13 @@
+var App = /** @class */ (function () {
+    function App() {
+    }
+    App.prototype.test = function () {
+        console.log("Test function working");
+    };
+    return App;
+}());
+var a1 = new App();
+a1.test();
 
-//THIS APP.JS IS A CLONE OF APP.TS AND IT IS CREATED AUTOMATICALLY AT THE TIME OF COMPILATION
 
-var a = "Hello TS";
-console.log(a);
+//this is a auto generated filewhich is a result of compling ts file 
