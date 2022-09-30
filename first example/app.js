@@ -1,3 +1,5 @@
+"use strict";
+exports.__esModule = true;
 var App = /** @class */ (function () {
     function App() {
     }
@@ -8,6 +10,5 @@ var App = /** @class */ (function () {
 }());
 var a1 = new App();
 a1.test();
-
-
-//this is a auto generated filewhich is a result of compling ts file 
+//to run this app.ts file we need to type the following command in the terminal
+//tsc .\app.ts

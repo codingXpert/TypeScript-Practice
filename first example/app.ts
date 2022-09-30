@@ -1,3 +1,6 @@
+
+export{}  //using modular approach to overcome the problem of duplicate identifier issue
+
 class App{
     test(){
         console.log("Test function working");
