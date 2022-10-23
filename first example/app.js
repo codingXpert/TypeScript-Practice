@@ -1,9 +1,6 @@
 "use strict";
 exports.__esModule = true;
-var obj = {
-    name: "vivek",
-    age: "twenty three",
-    gender: "M"
-};
-obj.nmae = 100;
-console.log(obj);
+var data = "anil";
+data = 30;
+data = true;
+console.log(data);

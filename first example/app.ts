@@ -1,8 +1,6 @@
 export{}; // export is used to solve duplicate identifier issue
-let obj:any= {
-    name:"vivek",
-    age:"twenty three",
-    gender:"M"
-}
-obj.nmae=100;
-console.log(obj);
+let data : String|number|boolean = "anil";
+data=30;
+data=true;
+
+console.log(data);
