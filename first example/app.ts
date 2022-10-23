@@ -1,12 +1,19 @@
 export{}; // export is used to solve duplicate identifier issue
-class App{
-    name:String="anil";
-    getName():String{
-     return this.name;
-    }
-    constructor(name:String){
+class Parent{
+    name:String;
+    setName(name):void
+    {
         this.name=name;
     }
 }
- let a1 = new App("petter");
- console.log(a1.getName());
+
+class Child extends Parent{
+    getName():String
+    {
+        return this.name;
+    }
+}
+
+let c1 = new Child();
+c1.setName("Petter");
+console.log(c1.getName());
