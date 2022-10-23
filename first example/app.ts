@@ -1,12 +1,12 @@
 export{}; // export is used to solve duplicate identifier issue
 class App{
-    name="anil";
+    name;
     getName(){
         console.log(this.name);
     }
-    constructor(){
-        console.log("constructor called")
+    constructor(name){
+        this.name=name;
     }
 }
- let a1 = new App;
+ let a1 = new App("anil");
  a1.getName();
