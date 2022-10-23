@@ -1,11 +1,9 @@
 // export{}; // export is used to solve duplicate identifier issue
-namespace userUtils{
-    export class User{
-        getName(){
-            return "anil sidhu";
-        }
-    }
-}
+import sLogin from './Student';
+import tLogin from './Teacher';
 
-let u1 = new userUtils.User();
-console.log(u1.getName)
+let teacher = new tLogin();
+console.log(teacher.data);
+
+let student = new sLogin();
+console.log(student.data)
