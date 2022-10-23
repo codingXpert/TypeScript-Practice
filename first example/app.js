@@ -2,12 +2,13 @@
 exports.__esModule = true;
 var App = /** @class */ (function () {
     function App(name) {
+        this.name = "anil";
         this.name = name;
     }
     App.prototype.getName = function () {
-        console.log(this.name);
+        return this.name;
     };
     return App;
 }());
-var a1 = new App("anil");
-a1.getName();
+var a1 = new App("petter");
+console.log(a1.getName());
