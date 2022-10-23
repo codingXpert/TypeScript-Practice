@@ -1,5 +1,8 @@
 "use strict";
 exports.__esModule = true;
-var a = ["anil", "kumar"];
-a.push("Hello");
-console.log(a);
+var obj = {
+    name: "vivek",
+    age: 23,
+    gender: "M"
+};
+console.log(obj);

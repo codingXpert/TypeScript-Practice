@@ -1,4 +1,13 @@
 export{};
-let a:String[] = [ "anil" , "kumar"];
-a.push("Hello");
-console.log(a);
+interface userTyped{
+    name:String,
+    age:number,
+    gender:String
+    
+}
+let obj:userTyped= {
+    name:"vivek",
+    age:23,
+    gender:"M"
+}
+console.log(obj);
