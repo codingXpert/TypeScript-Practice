@@ -2,7 +2,7 @@
 exports.__esModule = true;
 var obj = {
     name: "vivek",
-    age: 23,
+    age: "twenty three",
     gender: "M"
 };
 console.log(obj);
