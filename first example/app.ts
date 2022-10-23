@@ -1,19 +1,11 @@
-export{}; // export is used to solve duplicate identifier issue
-class Parent{
-    name:String;
-    setName(name):void
-    {
-        this.name=name;
+// export{}; // export is used to solve duplicate identifier issue
+namespace userUtils{
+    export class User{
+        getName(){
+            return "anil sidhu";
+        }
     }
 }
 
-class Child extends Parent{
-    getName():String
-    {
-        return this.name;
-    }
-}
-
-let c1 = new Child();
-c1.setName("Petter");
-console.log(c1.getName());
+let u1 = new userUtils.User();
+console.log(u1.getName)
