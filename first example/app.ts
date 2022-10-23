@@ -4,6 +4,9 @@ class App{
     getName(){
         console.log(this.name);
     }
+    constructor(){
+        console.log("constructor called")
+    }
 }
  let a1 = new App;
  a1.getName();
