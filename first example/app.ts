@@ -1,6 +1,6 @@
 export{}; // export is used to solve duplicate identifier issue
-let data : String|number|boolean = "anil";
-data=30;
-data=true;
+function call():number{
+    return 10+10;
+}
 
-console.log(data);
+console.log(call());

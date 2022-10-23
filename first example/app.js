@@ -1,6 +1,6 @@
 "use strict";
 exports.__esModule = true;
-var data = "anil";
-data = 30;
-data = true;
-console.log(data);
+function call() {
+    return 10 + 10;
+}
+console.log(call());
