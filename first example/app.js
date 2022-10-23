@@ -5,4 +5,5 @@ var obj = {
     age: "twenty three",
     gender: "M"
 };
+obj.nmae = 100;
 console.log(obj);

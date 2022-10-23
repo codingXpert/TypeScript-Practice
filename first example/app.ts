@@ -1,13 +1,8 @@
-export{};
-interface userTyped{
-    name:String,
-    age:any, //now we can use anything like String/number/boolean etc
-    gender:String
-    
-}
-let obj:userTyped= {
+export{}; // export is used to solve duplicate identifier issue
+let obj:any= {
     name:"vivek",
     age:"twenty three",
     gender:"M"
 }
+obj.nmae=100;
 console.log(obj);
